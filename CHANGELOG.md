@@ -1,5 +1,24 @@
 # Changelog
 
+## [2.9.0](https://github.com/googleapis/java-core/compare/v2.8.28...v2.9.0) (2022-11-18)
+
+
+### Features
+
+* Next release from main branch is 2.9.0 ([#1018](https://github.com/googleapis/java-core/issues/1018)) ([e53bf16](https://github.com/googleapis/java-core/commit/e53bf165791149ae4bcbe8ab21f14d8c6331680c))
+
+
+### Dependencies
+
+* Update dependency com.google.api.grpc:proto-google-iam-v1 to v1.6.10 ([#1028](https://github.com/googleapis/java-core/issues/1028)) ([399899a](https://github.com/googleapis/java-core/commit/399899a4a1bcffb4bdbf5ee2898b5f6050ea00a6))
+* Update dependency com.google.api.grpc:proto-google-iam-v1 to v1.6.11 ([#1029](https://github.com/googleapis/java-core/issues/1029)) ([0e33024](https://github.com/googleapis/java-core/commit/0e3302464ff613fa082d6f165155d6a825cf4294))
+* Update dependency com.google.api.grpc:proto-google-iam-v1 to v1.6.12 ([#1031](https://github.com/googleapis/java-core/issues/1031)) ([3705e63](https://github.com/googleapis/java-core/commit/3705e63d3291f4d0d9c6346f32c43f209983e801))
+* Update dependency com.google.api.grpc:proto-google-iam-v1 to v1.6.13 ([#1033](https://github.com/googleapis/java-core/issues/1033)) ([3256faa](https://github.com/googleapis/java-core/commit/3256faa6301939492a07d2c5d02d3a5eb3c75c5e))
+* Update dependency com.google.api.grpc:proto-google-iam-v1 to v1.6.14 ([#1034](https://github.com/googleapis/java-core/issues/1034)) ([03d481b](https://github.com/googleapis/java-core/commit/03d481be4aa7e4885acc6fb204f92606a514db0f))
+* Update dependency com.google.api.grpc:proto-google-iam-v1 to v1.6.9 ([#1024](https://github.com/googleapis/java-core/issues/1024)) ([3bb2fae](https://github.com/googleapis/java-core/commit/3bb2fae3c4c96301985f2e4c51d0a6bc9d737341))
+* Update dependency com.google.auth:google-auth-library-bom to v1.13.0 ([#1030](https://github.com/googleapis/java-core/issues/1030)) ([799e584](https://github.com/googleapis/java-core/commit/799e584645fb03c96f7e93156770c9afa631eff6))
+* Update dependency io.grpc:grpc-bom to v1.51.0 ([#1032](https://github.com/googleapis/java-core/issues/1032)) ([2572bcc](https://github.com/googleapis/java-core/commit/2572bcc6f62e713009ebcb4c41a2e5ec4ba57707))
+
 ## [2.8.28](https://github.com/googleapis/java-core/compare/v2.8.27...v2.8.28) (2022-11-09)
 
 
