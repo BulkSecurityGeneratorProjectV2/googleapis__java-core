@@ -46,6 +46,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
 import java.util.Map;
 import java.util.Set;
 import java.util.regex.Pattern;
@@ -429,7 +430,7 @@ public class ServiceOptionsTest {
 
   @Test
   public void testGetServiceAccountProjectId() throws Exception {
-    File credentialsFile = File.createTempFile("credentials", ".json");
+    File credentialsFile = Files.createTempFile("credentials", ".json").toFile();
     credentialsFile.deleteOnExit();
     Files.write("{\"project_id\":\"my-project-id\"}".getBytes(), credentialsFile);
 
@@ -440,7 +441,7 @@ public class ServiceOptionsTest {
 
   @Test
   public void testGetServiceAccountProjectId_badJson() throws Exception {
-    File credentialsFile = File.createTempFile("credentials", ".json");
+    File credentialsFile = Files.createTempFile("credentials", ".json").toFile();
     credentialsFile.deleteOnExit();
     Files.write("asdfghj".getBytes(StandardCharsets.UTF_8), credentialsFile);
 
